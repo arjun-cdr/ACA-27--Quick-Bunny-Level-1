@@ -97,6 +97,9 @@ if(bunny.isTouching(brick9)){
   bunny.x=40;
   bunny.y=550;
 }
+if(bunny.isTouching(carrot)){
+  text("YOU WON",200,200);
+}
 
 
 
